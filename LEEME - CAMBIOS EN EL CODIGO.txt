@@ -1,0 +1,17 @@
+en el index.html agruegue estas keywords: mejores marcas deportivas bebidas energeticas redbull nike adidas monster
+
+esta descripcion: Te mostraremos las mejores marcas de indumentarias y bebidas deportivas del mundo en un solo lugar, ojala pueda aprobar :'v hoy fui al dentista y me hice cura de conducto, duele una banda asdasd
+
+y tambien agregue titulos h1 y h2 en ambas paginas
+
+---------------------------------------------------------------------
+
+en la pagina2.html agruegue estas keywords: contacto marcas deportivas bebidas energeticas redbull nike adidas monster
+
+esta descripcion: Unete a nuestro equipo de especialistas en indumentaria y bebidas energizantes, no te pierdas esta oportunidad unica en la vida, contactanos ya, no esperes mas
+
+y tambien agregue titulos h1 y h2 igual que en el index
+
+---------------------------------------------------------------------
+
+y tambien en el archivo scss/principal.scss utilice un mapa, un extend y un mixin
