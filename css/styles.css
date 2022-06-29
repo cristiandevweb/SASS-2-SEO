@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin: auto;
+  width: 80%;
+  min-height: calc(100vh - 100px - 300px);
+}
+
+.carousel-item {
+  max-height: 100vh;
+}
+.carousel-item img {
+  width: 100%;
+}
+
+.carousel-caption p, .carousel-color-blanco p p {
+  font-size: 80px;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px rgb(0, 0, 0);
+  color: aqua;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+}
+
+.abajo {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.fondo-nike {
+  background-color: cyan;
+}
+
+.fondo-adidas {
+  background-color: black;
+}
+
+.fondo-redbull {
+  background-color: blue;
+}
+
+.fondo-monster {
+  background-color: green;
+}
+
+.carousel-color-blanco p {
+  color: white;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 200px;
+  height: 200px;
+}
+
+/*# sourceMappingURL=styles.css.map */

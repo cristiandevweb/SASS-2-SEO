@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    margin: auto;
+    width: 80%;
+    min-height: calc(100vh - 100px - 300px);
+}
+.carousel-item {
+    max-height: 100vh;
+    & img {
+        width: 100%;
+    }
+}
+.carousel-caption p {
+    font-size: 80px;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px rgb(0, 0, 0);
+    color: aqua;
+}
+form {
+    width: 50%;
+    margin: auto;
+}
+.abajo {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+//----------------MAPAS----------------------------------
+
+$colores-marcas: (
+    nike:       cyan,
+    adidas:     black,
+    redbull:    blue,
+    monster:    green
+);
+@each $marca, $color in $colores-marcas {
+    .fondo-#{$marca} {
+        background-color: $color;
+    }
+}
+
+//----------------EXTEND---------------------------------
+
+.carousel-color-blanco p {
+    @extend .carousel-caption;
+    color: white;
+}
+
+//----------------MIXIN---------------------------------
+
+@mixin tamaño ($alto, $ancho) {
+    width: $ancho;
+    height: $alto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    & img {
+        @include tamaño (200px, 200px);
+    }
+  }
