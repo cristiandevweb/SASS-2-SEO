@@ -14,4 +14,4 @@ y tambien agregue titulos h1 y h2 igual que en el index
 
 ---------------------------------------------------------------------
 
-y tambien en el archivo scss/principal.scss utilice un mapa, un extend y un mixin
+y tambien en el archivo scss/principal.scss utilice un mapa para establecer colores de fondo, un extend para cambiar el color de las letras de la galeria de imagenes de la pagina index.html, y un mixin para establecer el tamaño de las imagenes en la pagina index.
